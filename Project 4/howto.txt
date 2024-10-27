@@ -1,0 +1,22 @@
+1. Code
+
+2. Go to compiler and enter "g++ main.cpp type.cpp flightMap.cpp -o main"
+
+3. If it works, then enter "./main" and you'll be given the output
+    If it doesn't work, you'll be given errors (segmentation, undefined referenced) and it'll be your job to figure out how to solve those errors
+
+4. Finally, we will create the makefile (or if Makefile already exists, we will just open that makefile)
+    1) vim Makefile
+    2) j, moves up
+    3) k moves down
+    4) l moves right
+    5) h moves left
+    6)go into insert mode (i)
+        When in insert mode, use the arrows to go through the file
+    7) insert tabs where needed
+    8) click esc to exit insert mode
+    9) shift + ;  then wq + enter (:wq)
+	10) Enter "make"
+	11) Enter "./main"
+	12) Enter "make clean"
+		If it shows rm etc., you are all set to submit!
